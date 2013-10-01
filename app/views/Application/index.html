@@ -1,4 +1,35 @@
 #{extends 'main.html' /}
-#{set title:'Home' /}
+#{set title:'#modayiyasat' /}
 
-Modayiyasat
+
+<section id="video">
+	<div class="slides">
+		<video id="backgroundVideo1" src="https://s3.amazonaws.com/kitapyigini/fed_video_cvrt_3.mp4" autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted" width="640" height="360"></video>
+	</div>
+</section>
+
+
+<div id="topBlack"></div>
+<section id="pageContainer">	
+	
+	#{header /}	
+	
+	<div id="page">
+	
+	</div>
+	
+</section>
+
+<div id="bottomBlack">
+	<div id="bottomBlackBorder"></div>
+</div>
+
+
+
+
+<script>
+$(function(){
+	// Helper function to Fill and Center the HTML5 Video
+	jQuery('video, object').maximage('maxcover');
+	});
+</script>
