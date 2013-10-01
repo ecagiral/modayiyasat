@@ -1,3 +1,125 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #111;
+    overflow: hidden;
+    font-family:'HM Ampersand Regular', Arial, sans-serif;
+}
+
+.wrapper {
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    z-index: 0;
+}
+
+
+/* Video Pages */
+
+.screen {
+    position: relative;
+    height: 100%;
+    width: 20%; /*  NOTE: numVideos/100%  */;
+    float: left;
+    overflow: hidden;
+}
+
+.big-image {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.video-title {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    opacity: .5;
+    margin: 40px 0 0 0;
+    padding: 0;
+    line-height: .65;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+/* Nav */
+
+nav#prev-btn{
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    padding: 20px;
+    background: #000;
+    border-radius: 40px;
+    opacity: .4;
+    cursor: pointer;
+    z-index: 1000;	
+}
+
+nav#next-btn {
+    position: absolute;
+    right: 5%;
+    top: 45%;
+    padding: 20px;
+    background: #000;
+    border-radius: 40px;
+    opacity: .4;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+nav#next-btn:hover,nav#prev-btn:hover {
+    opacity: .6;
+}
+
+.next-icon {
+    display: block;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    text-decoration: none;
+}
+
+.prev-icon {
+    display: block;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+/* *************************************************************** */
+/* VIDEO STUFF ENDS HERE */
 @font-face {
     font-family: "HM Ampersand Light";
     src: url("/public/stylesheets/fonts/hmampersand-light-webfont.woff") format('woff');
@@ -20,15 +142,6 @@
     src: url("/public/stylesheets/fonts/hmampersand-condensedbold-webfont.woff") format('woff');
 }
 
-
-html{font-family:'HM Ampersand Regular', Arial, sans-serif;overflow-x:hidden;}
-body {margin:0;padding:0;}
-video, object {
-  left:0;
-  position:absolute;
-  top:0;
-}
-
 #header{
 left:50%;
 margin-left:-460px;
@@ -41,12 +154,13 @@ border-radius:0 0 15px 15px;
 height:35px;
 border-top:2px solid #3a5823;
 z-index:1000;
-border-bottom:5px solid #3a5823;	
+border-bottom:5px solid #3a5823;
+opacity:0;
 }
 
 #header img{
 float:left;
-margin:7px 20px 0 10px;
+margin:5px 20px 0 10px;
 }
 
 #topBlack{
@@ -57,10 +171,10 @@ height:100px;background:black;position:fixed;width:100%;top:0px;z-index:10;
 height:100px;background:black;position:fixed;width:100%;bottom:0px;z-index:10;	
 }
 
-#bottomBlackBorder{width:920px;margin:0 auto;border-top:5px solid #383735;height:0px;position:relative;bottom:5px}
+#bottomBlackBorder{display:none;width:920px;margin:0 auto;border-top:5px solid #383735;height:0px;position:relative;bottom:5px}
 
 #page{
-height:100%;background:white;border-top:5px solid #3a5823;border-left:5px solid #383735;border-right:5px solid #383735;margin-top:30px;
+opacity:0;height:100%;background:white;border-top:5px solid #3a5823;border-left:5px solid #383735;border-right:5px solid #383735;margin-top:23px;
 }
 
 #pageContainer{
@@ -74,7 +188,7 @@ float:right;
 #linksContainer > DIV {
 float:left;
 width:109px;
-height:35px;
+height:30px;
 font-size:12px;
 text-align:center;
 cursor:pointer;
@@ -105,10 +219,14 @@ color:white;
 
 #linksContainer > DIV > span {
 display:block;
-padding-top:10px;
+padding-top:6px;
 font-weight:bold;
 }
 
+.activeHeaderLink{
+background:#3a5823;
+color:white !important;	
+}
 /* Large screens ----------- */
 @media (min-width: 1700px) and (max-width: 2200px) {
 #header img {margin-right:0px;}
