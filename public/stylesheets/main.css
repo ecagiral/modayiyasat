@@ -67,6 +67,10 @@ height:100%;background:white;border-top:10px solid #3a5823;border-left:10px soli
 margin:0 auto;width:920px;height:100%;position:relative;overflow: hidden;padding: 0;z-index:10;		
 }
 
+#linksContainer{
+float:right;	
+}
+
 #linksContainer > DIV {
 float:left;
 width:109px;
@@ -78,8 +82,12 @@ color:black;
 border-left:1px solid #3a5823;
 }
 
+#linksContainer > DIV:first-child {
+width:110px;
+}
+
 #linksContainer > DIV:last-child {
-width:115px;
+width:98px;
 }
 
 #linksContainer #rota {
@@ -87,7 +95,7 @@ width:82px;
 }
 
 #linksContainer #sosyalmedya {
-width:120px;
+width:133px;
 }
 
 #linksContainer > DIV:hover {
@@ -99,4 +107,9 @@ color:white;
 display:block;
 padding-top:13px;
 font-weight:bold;
+}
+
+/* Large screens ----------- */
+@media (min-width: 1700px) and (max-width: 2200px) {
+#header img {margin-right:0px;}
 }
