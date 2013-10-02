@@ -287,6 +287,53 @@ color:white !important;
     font-family: "HM Ampersand Light";
 }
 
+#rotaTablosu {
+  width:600px;
+  margin: 10px auto;
+  line-height:0;
+  border-spacing:0
+}
+
+#rotaTablosu th{
+  background-color:#49692F;
+  color:white;
+  text-align:left;
+  width:16.6%
+}
+
+#rotaTablosu p{
+    font-size:10px
+}
+
+#rotaTablosu th.left{
+  width:13%
+}
+#rotaTablosu th.time{
+  width:16%
+}
+#rotaTablosu th.hour{
+  width:15%
+}
+#rotaTablosu th.car{
+  width:30%
+}
+#rotaTablosu th.place{
+  width:13%
+}
+
+
+#rotaTablosu td{
+  text-align:left;
+}
+
+.darkRow{
+    background-color:#dbe1d5
+}
+
+.lightRow{
+    background-color:#f2f2f2
+}
+
 
 #sendMessage{
 	float:right;
