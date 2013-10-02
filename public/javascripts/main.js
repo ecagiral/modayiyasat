@@ -34,4 +34,11 @@ $('#linksContainer > DIV').on('click', function() {
 	 
 });
 
+$('#projeNedir').on('click', function() {
+    $('.menuContent').addClass("hide");
+    $('#projePage').removeClass("hide");
+    $('#linksContainer > DIV').removeClass("activeHeaderLink");
+    $('#proje').addClass("activeHeaderLink");
+});
+
 });
