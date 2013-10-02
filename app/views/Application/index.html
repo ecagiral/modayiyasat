@@ -105,7 +105,9 @@
                 });
                 
                 BV.getPlayer().addEvent('ended', function () {
-//                    alert("bitti");
+                	$('#header').animate({
+                		"opacity":"1"
+                	});
                 });
 
                 // adjust image positioning so it lines up with video

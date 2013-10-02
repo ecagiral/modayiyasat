@@ -191,7 +191,7 @@ float:right;
 
 #linksContainer > DIV {
 float:left;
-width:109px;
+width:105px;
 height:30px;
 font-size:12px;
 text-align:center;
@@ -208,11 +208,17 @@ width:110px;
 width:98px;
 }
 
+
+#linksContainer #iletisim:hover {
+border-radius:0 0 10px;
+}
+
+
 #linksContainer #rota {
 width:82px;
 }
 
-#linksContainer #sosyalmedya {
+#linksContainer #sosyal {
 width:133px;
 }
 
@@ -240,6 +246,25 @@ color:white !important;
 .celebImage{display:inline-block;float:left;margin-left:20px;text-align:center}
 .celebImage img{width:200px}
 .celebImage p{line-height:20px}
+#iletisimContainerHeaderImage{background:url('/public/images/10.png') no-repeat center center;width:200px;height:110px;}
+.formBox{border-bottom:1px solid  #a1b096;padding:5px}
+.formBox span{padding: 8px 5px 5px 5px;display: block;float: left;}
+.formBox input{height: 40px;width: 200px;float: right;}
+#formBoxTextArea{height: 143px;width: 388px;float: right;border: none;}
+#formBoxTextAreaContainer{padding:10px 0px 0px 10px}
+#formBoxTextArea:focus { 
+    outline: none !important;
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+.formBox input:focus { 
+    outline:  #a1b096; !important;
+    border-color:  #a1b096;
+    box-shadow: 0 0 0 0;
+}
+
+.formBox input{border:1px solid #a1b096}
 
 .hide{
     display:none
@@ -260,6 +285,19 @@ color:white !important;
     font-family: "HM Ampersand Light";
 }
 
+
+#sendMessage{
+	float:right;
+    cursor: pointer;
+    background-color:#3a5823;
+    padding:5px 10px 8px 15px;
+    color:white;
+    font-size:14px;
+    font-family: "HM Ampersand Light";
+    border:none;
+    margin-top:10px;
+    margin-right:-1px;
+}
 /* Large screens ----------- */
 @media (min-width: 1700px) and (max-width: 2200px) {
 #header img {margin-right:0px;}
