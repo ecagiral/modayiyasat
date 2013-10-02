@@ -227,6 +227,15 @@ font-weight:bold;
 background:#3a5823;
 color:white !important;	
 }
+
+#projeContainer{width:900px;margin:0 auto;}
+#projectPageHeaderImage{background:url('/public/images/7.png') no-repeat center center;width:600px;height:110px;margin:0 auto}
+.line{width:300px;height:0px;border:2px solid #3a5823;margin:0 auto}
+#projectText{padding-top:10px;color:black;text-align:center;font-size:13px;}
+#projeCelebs{width:900px;margin:0 auto;padding-top:10px;margin-bottom:20px}
+.celebImage{display:inline-block;float:left;margin-left:20px}
+.celebImage img{width:200px}
+
 /* Large screens ----------- */
 @media (min-width: 1700px) and (max-width: 2200px) {
 #header img {margin-right:0px;}

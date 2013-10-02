@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$(".next-icon").mouseover(function(e) {
+$("#next").mouseover(function(e) {
 	e.preventDefault();
 	$('#header').animate({
 		"opacity":"1"
