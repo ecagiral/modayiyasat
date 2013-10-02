@@ -8,7 +8,7 @@
     <file path="/a.dummy" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380308133513" ignored="false" />
     <file path="/Dummy.txt" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380696359428" ignored="false" />
     <file path="/fragment.java" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380696412386" ignored="false" />
-    <file path="/main.css" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380716294264" ignored="false" />
+    <file path="/main.css" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380718017287" ignored="false" />
     <file path="/main.js" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380705303664" ignored="false" />
     <file path="/nedir.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380705260560" ignored="false" />
     <file path="/iletisim.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702802272" ignored="false" />
@@ -168,7 +168,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="279" column="20" selection-start="5788" selection-end="5788" vertical-scroll-proportion="10.182482">
+            <state line="302" column="18" selection-start="6140" selection-end="6140" vertical-scroll-proportion="0.3649635">
               <folding />
             </state>
           </provider>
@@ -703,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="279" column="20" selection-start="5788" selection-end="5788" vertical-scroll-proportion="10.182482">
+        <state line="302" column="18" selection-start="6140" selection-end="6140" vertical-scroll-proportion="0.3649635">
           <folding />
         </state>
       </provider>
