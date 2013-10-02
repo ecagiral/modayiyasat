@@ -18,7 +18,11 @@ $('#linksContainer > DIV').on('click', function() {
 		$("#bottomBlackBorder").animate({
 			"opacity":"0"
 		});
-	}else {		
+	}else {
+	    $('.menuContent').addClass("hide");
+		var pageId = "#"+$(this).attr('id')+"Page";
+		$(pageId).removeClass("hide");
+
 		$(this).addClass("activeHeaderLink");
 		$('#page').animate({
 			"opacity":"1"
@@ -28,6 +32,13 @@ $('#linksContainer > DIV').on('click', function() {
 		});
 	}
 	 
+});
+
+$('#projeNedir').on('click', function() {
+    $('.menuContent').addClass("hide");
+    $('#projePage').removeClass("hide");
+    $('#linksContainer > DIV').removeClass("activeHeaderLink");
+    $('#proje').addClass("activeHeaderLink");
 });
 
 });
