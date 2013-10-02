@@ -14,6 +14,10 @@ body {
     font-family:'HM Ampersand Regular', Arial, sans-serif;
 }
 
+p{
+font-size:14px;	
+}
+
 .wrapper {
     position: absolute;
     width: 500%;
@@ -171,7 +175,7 @@ height:100px;background:black;position:fixed;width:100%;top:0px;z-index:10;
 height:100px;background:black;position:fixed;width:100%;bottom:0px;z-index:10;	
 }
 
-#bottomBlackBorder{opacity:0;width:920px;margin:0 auto;border-top:5px solid #383735;height:0px;position:relative;bottom:5px}
+#bottomBlackBorder{opacity:0;width:920px;margin:0 auto;border-top:5px solid #383735;height:0px;position:relative;bottom:4px}
 
 #page{
 opacity:0;height:100%;width:100%;background:white;border-top:5px solid #3a5823;border-left:5px solid #383735;border-right:5px solid #383735;margin-top:23px;    overflow-y: scroll;
@@ -233,8 +237,9 @@ color:white !important;
 .line{width:300px;height:0px;border:2px solid #3a5823;margin:0 auto}
 #projectText{padding-top:10px;color:black;text-align:center;font-size:13px;}
 #projeCelebs{width:900px;margin:0 auto;padding-top:10px;margin-bottom:20px}
-.celebImage{display:inline-block;float:left;margin-left:20px}
+.celebImage{display:inline-block;float:left;margin-left:20px;text-align:center}
 .celebImage img{width:200px}
+.celebImage p{line-height:20px}
 
 .hide{
     display:none
@@ -249,7 +254,10 @@ color:white !important;
 #projeNedir{
     cursor: pointer;
     background-color:#3a5823;
-    padding:5px 15px
+    padding:5px 15px;
+    color:white;
+    font-size:14px;
+    font-family: "HM Ampersand Light";
 }
 
 /* Large screens ----------- */
