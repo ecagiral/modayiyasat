@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 
-<html>
+<html style="height:100%">
     <head>
-        <title>#{get 'title' /}</title>
+        <title>H&M</title>
         <meta charset="${_response_encoding}">
-        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+        <meta name="keywords" content="h&m,h&mturkiye,modayiyasat,icollect">
+		<meta name="description" content="h&m turkiye modayiyasat">
+		<link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+		<link rel="stylesheet" href="/public/stylesheets/bigvideo.css">
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
-        <script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>        
+    	<script src="/public/javascripts/main.js"></script>
+    	<script src="/public/javascripts/modernizr-2.5.3.min.js"></script>
         #{get 'moreScripts' /}
+        <!--[if lte IE 8]>
+    	<style>
+        /* Rotation of the arrow element for IE < 9 */
+        .next-icon { /* IE Matrix Calculator - http: //www.boogdesign.com/examples/transforms/matrix-calculator.html */;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand')";
+            filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand');
+        }
+    	</style>
+    	<![endif]-->
     </head>
-    <body>
-        #{doLayout /}
+    <body style="height: 100%;">   
+        #{doLayout /}                                
     </body>
 </html>
