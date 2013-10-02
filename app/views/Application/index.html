@@ -215,8 +215,17 @@
                 });
 
             }
-                        
-           
+                    
+           	 
+            #{if header}
+            	$('#header').css("opacity","1");
+            #{/if}
+            
+            #{if tab }
+            	$('.menuContent').addClass("hide");
+        		var pageId = "#"+${tab}.attr('id')+"Page";
+        		$(pageId).removeClass("hide");
+        	#{/if}
             
         });
     </script>

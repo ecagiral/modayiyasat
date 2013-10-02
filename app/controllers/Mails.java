@@ -12,6 +12,7 @@ public class Mails extends Mailer {
         setFrom(new InternetAddress("info@yolyola.com", "modayiyasat"));        
         setSubject("Yeni mesaj var");
         addRecipient("nerds@hep.com.tr");
+        //pr.turkiye@hm.com
         send(firstname,lastname,feedback,email,phone);
     }
     
