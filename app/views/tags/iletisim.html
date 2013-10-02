@@ -1,30 +1,35 @@
 <div id="iletisimContainer">
+	#{if flash?.error}
+    	<div class="alert-error">
+            ${flash.error}
+        </div>
+    #{/if}
 	<div id="iletisimContainerHeaderImage"></div>
-	<div id="iletisimForm" style="border:1px solid  #a1b096;width:400px;height:380px;margin-left:40px;margin-bottom:20px">
-		<form>
+	<div id="iletisimForm">
+		<form action="@{Application.sendMessage}" id="sendMessageForm"  method="post">
 			<div class="formBox">
 				<span>Adınız:</span>
-				<input type="text" />
+				<input type="text" name="firstname" />
 				<div style="clear:both"></div>
 			</div>
 			<div class="formBox">
 				<span>Soyadınız:</span>
-				<input type="text" />
+				<input type="text" name="lastname"/>
 				<div style="clear:both"></div>
 			</div>
 			<div class="formBox">
 				<span>E-mail adresi:</span>
-				<input type="text" />
+				<input type="text" name="email"/>
 				<div style="clear:both"></div>
 			</div>
 			<div class="formBox">
 				<span>Telefon numarası:</span>
-				<input type="text" />
+				<input type="text" name="phone"/>
 				<div style="clear:both"></div>
 			</div>
 			<div id="formBoxTextAreaContainer">
 				<span>Mesaj:</span>
-				<textarea id="formBoxTextArea"></textarea>
+				<textarea id="formBoxTextArea" name="message"></textarea>
 				<div style="clear:both"></div>
 			</div>
 			<input id="sendMessage" type="submit" value="Gönder" />

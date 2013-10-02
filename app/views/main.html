@@ -24,7 +24,12 @@
     	</style>
     	<![endif]-->
     </head>
-    <body style="height: 100%;">   
+    <body style="height: 100%;">
+    	#{if flash?.success}
+    		<div class="alert-success">
+            	${flash.success}
+        	</div>
+    	#{/if}
         #{doLayout /}                                
     </body>
 </html>
