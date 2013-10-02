@@ -14,6 +14,10 @@ body {
     font-family:'HM Ampersand Regular', Arial, sans-serif;
 }
 
+p{
+font-size:14px;	
+}
+
 .wrapper {
     position: absolute;
     width: 500%;
@@ -171,7 +175,7 @@ height:100px;background:black;position:fixed;width:100%;top:0px;z-index:10;
 height:100px;background:black;position:fixed;width:100%;bottom:0px;z-index:10;	
 }
 
-#bottomBlackBorder{opacity:0;width:920px;margin:0 auto;border-top:5px solid #383735;height:0px;position:relative;bottom:5px}
+#bottomBlackBorder{opacity:0;width:920px;margin:0 auto;border-top:5px solid #383735;height:0px;position:relative;bottom:4px}
 
 #page{
 opacity:0;height:100%;width:100%;background:white;border-top:5px solid #3a5823;border-left:5px solid #383735;border-right:5px solid #383735;margin-top:23px;    overflow-y: scroll;
@@ -187,7 +191,7 @@ float:right;
 
 #linksContainer > DIV {
 float:left;
-width:109px;
+width:105px;
 height:30px;
 font-size:12px;
 text-align:center;
@@ -204,11 +208,17 @@ width:110px;
 width:98px;
 }
 
+
+#linksContainer #iletisim:hover {
+border-radius:0 0 10px;
+}
+
+
 #linksContainer #rota {
 width:82px;
 }
 
-#linksContainer #sosyalmedya {
+#linksContainer #sosyal {
 width:133px;
 }
 
@@ -228,6 +238,34 @@ background:#3a5823;
 color:white !important;	
 }
 
+#projeContainer{width:900px;margin:0 auto;}
+#projectPageHeaderImage{background:url('/public/images/7.png') no-repeat center center;width:600px;height:110px;margin:0 auto}
+.line{width:300px;height:0px;border:2px solid #3a5823;margin:0 auto}
+#projectText{padding-top:10px;color:black;text-align:center;font-size:13px;}
+#projeCelebs{width:900px;margin:0 auto;padding-top:10px;margin-bottom:20px}
+.celebImage{display:inline-block;float:left;margin-left:20px;text-align:center}
+.celebImage img{width:200px}
+.celebImage p{line-height:20px}
+#iletisimContainerHeaderImage{background:url('/public/images/10.png') no-repeat center center;width:200px;height:110px;}
+.formBox{border-bottom:1px solid  #a1b096;padding:5px}
+.formBox span{padding: 8px 5px 5px 5px;display: block;float: left;}
+.formBox input{height: 40px;width: 200px;float: right;}
+#formBoxTextArea{height: 143px;width: 388px;float: right;border: none;}
+#formBoxTextAreaContainer{padding:10px 0px 0px 10px}
+#formBoxTextArea:focus { 
+    outline: none !important;
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+.formBox input:focus { 
+    outline:  #a1b096; !important;
+    border-color:  #a1b096;
+    box-shadow: 0 0 0 0;
+}
+
+.formBox input{border:1px solid #a1b096}
+
 .hide{
     display:none
 }
@@ -240,8 +278,11 @@ color:white !important;
 
 #projeNedir{
     cursor: pointer;
-    background-color:#49692F;
-    padding:5px 15px
+    background-color:#3a5823;
+    padding:5px 15px;
+    color:white;
+    font-size:14px;
+    font-family: "HM Ampersand Light";
 }
 
 #rotaTablosu {
@@ -288,6 +329,19 @@ color:white !important;
     background-color:#f2f2f2
 }
 
+
+#sendMessage{
+	float:right;
+    cursor: pointer;
+    background-color:#3a5823;
+    padding:5px 10px 8px 15px;
+    color:white;
+    font-size:14px;
+    font-family: "HM Ampersand Light";
+    border:none;
+    margin-top:10px;
+    margin-right:-1px;
+}
 /* Large screens ----------- */
 @media (min-width: 1700px) and (max-width: 2200px) {
 #header img {margin-right:0px;}
