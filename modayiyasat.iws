@@ -4,12 +4,18 @@
     <list default="true" id="a77e86d7-d854-4d78-8acb-8e4b8174ffea" name="Default" comment="" />
     <ignored path="modayiyasat.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702620776" ignored="false" />
+    <file path="/index.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702868383" ignored="false" />
     <file path="/a.dummy" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380308133513" ignored="false" />
     <file path="/Dummy.txt" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380696359428" ignored="false" />
     <file path="/fragment.java" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380696412386" ignored="false" />
     <file path="/main.css" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702077215" ignored="false" />
     <file path="/main.js" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702308147" ignored="false" />
+    <file path="/nedir.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702695647" ignored="false" />
+    <file path="/iletisim.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702802272" ignored="false" />
+    <file path="/galeri.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702806639" ignored="false" />
+    <file path="/proje.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702810024" ignored="false" />
+    <file path="/rota.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702815936" ignored="false" />
+    <file path="/sosyal.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702819391" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,19 +76,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
+      <file leaf-file-name="iletisim.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/iletisim.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="19" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.29467085">
+            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <file leaf-file-name="sosyal.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/sosyal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="236" column="21" selection-start="4390" selection-end="4390" vertical-scroll-proportion="-11.038462">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rota.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/rota.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galeri.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/galeri.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proje.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/proje.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nedir.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/nedir.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -117,6 +159,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="236" column="17" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.4375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -127,10 +178,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/app/views/tags/header.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/nedir.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/iletisim.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/galeri.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/proje.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/rota.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/sosyal.html" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
       </list>
     </option>
   </component>
@@ -556,22 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1380700365000" expanded="true" signature="834:1348" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="236" column="21" selection-start="4390" selection-end="4390" vertical-scroll-proportion="-11.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="8" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
@@ -586,9 +627,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/iletisim.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/nedir.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/galeri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/proje.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/rota.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/sosyal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="19" selection-start="1411" selection-end="1411" vertical-scroll-proportion="0.29467085">
+        <state line="61" column="22" selection-start="1884" selection-end="1884" vertical-scroll-proportion="-8.583333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1380700365000" expanded="true" signature="834:1348" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="236" column="17" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.4375">
           <folding />
         </state>
       </provider>
