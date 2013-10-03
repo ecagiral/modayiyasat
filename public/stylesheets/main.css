@@ -209,16 +209,16 @@ width:98px;
 }
 
 
-#linksContainer #iletisim:hover {
+#linksContainer .iletisimPage-header:hover {
 border-radius:0 0 10px;
 }
 
 
-#linksContainer #rota {
+#linksContainer .rotaPage-header {
 width:82px;
 }
 
-#linksContainer #sosyal {
+#linksContainer .sosyalPage-header {
 width:133px;
 }
 
@@ -275,7 +275,7 @@ color:white !important;
 .menuContent{
     color:black;
     padding-top:20px;
-    padding-bottom:250px;
+    padding-bottom:150px;
 }
 
 #projeNedir{
@@ -372,6 +372,9 @@ padding: 15px 14px 15px 5px;
 text-align:center;
 margin-top:100px;
 }
+
+.celebInfo{display:none}
+.celebImage{cursor:pointer}
 
 /* Large screens ----------- */
 @media (min-width: 1700px) and (max-width: 2200px) {
