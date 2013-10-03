@@ -41,4 +41,6 @@ $('#projeNedir').on('click', function() {
     $('#proje').addClass("activeHeaderLink");
 });
 
+$(".fancybox").fancybox();
+
 });

@@ -8,11 +8,13 @@
 		<meta name="description" content="h&m turkiye modayiyasat">
 		<link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
 		<link rel="stylesheet" href="/public/stylesheets/bigvideo.css">
+        <link rel="stylesheet" href="/public/stylesheets/jquery.fancybox.css">
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>        
     	<script src="/public/javascripts/main.js"></script>
     	<script src="/public/javascripts/modernizr-2.5.3.min.js"></script>
+        <script src="/public/javascripts/jquery.fancybox.js"></script>
         #{get 'moreScripts' /}
         <!--[if lte IE 8]>
     	<style>
@@ -24,7 +26,7 @@
     	</style>
     	<![endif]-->
     </head>
-    <body style="height: 100%;">   
-        #{doLayout /}                                
+    <body style="height: 100%;">
+        #{doLayout /}
     </body>
 </html>
