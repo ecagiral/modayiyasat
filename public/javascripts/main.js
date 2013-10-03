@@ -47,7 +47,13 @@ $('#projeNedir').on('click', function() {
     $('#proje').addClass("activeHeaderLink");
 });
 
-$(".fancybox").fancybox();
+$(".fancybox").fancybox({
+    'transitionIn'	:	'elastic',
+    'transitionOut'	:	'elastic',
+    'speedIn'		:	600,
+    'speedOut'		:	200,
+    'overlayShow'	:	true
+});
 
 $('#projeCelebs .celebImage').on('click', function() {
 	var id = $(this).attr('data-id');	
