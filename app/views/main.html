@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html style="height:100%">
+<html lang="tr" style="height:100%">
     <head>
         <title>H&M</title>
         <meta charset="${_response_encoding}">
@@ -27,6 +27,12 @@
     	<![endif]-->
     </head>
     <body style="height: 100%;">
+
+    	#{if flash?.success}
+    		<div class="alert-success">
+            	${flash.success}
+        	</div>
+    	#{/if}
         #{doLayout /}
     </body>
 </html>

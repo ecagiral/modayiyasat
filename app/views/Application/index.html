@@ -214,8 +214,22 @@
                 });
 
             }
-                        
-           
+                    
+           	 
+            #{if header}
+            	$('#header').css("opacity","1");
+            #{/if}
+            
+            #{if tab}
+            	$('.menuContent').addClass("hide");
+        		var pageId = "#"+'${tab}'+"Page";;        		
+        		var headerClass = "."+'${tab}'+"-header";
+        		$(headerClass).addClass("activeHeaderLink");        		
+        		$("#anasayfa").removeClass("activeHeaderLink");
+        		$("#header").css("opacity","1");
+        		$("#page").css("opacity","1");
+        		$(pageId).removeClass("hide");
+        	#{/if}
             
         });
     </script>

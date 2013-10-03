@@ -27,6 +27,12 @@ $('#linksContainer > DIV').on('click', function() {
 		$('#page').animate({
 			"opacity":"1"
 		});   
+		
+		
+		$(".celebInfo").addClass("hide");
+		$(".celebInfo").toggle(false);	
+		$('#projeSummary').toggle(true);
+		
 		$("#bottomBlackBorder").animate({
 			"opacity":"1"
 		});
@@ -42,5 +48,14 @@ $('#projeNedir').on('click', function() {
 });
 
 $(".fancybox").fancybox();
+
+$('#projeCelebs .celebImage').on('click', function() {
+	var id = $(this).attr('data-id');	
+	$(".celebInfo").addClass("hide");
+	$(".celebInfo").toggle(false);
+	$('#'+id).removeClass("hide");	
+	$('#projeSummary').toggle(false);
+	$('#'+id).toggle(true);    
+});
 
 });

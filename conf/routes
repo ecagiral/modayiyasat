@@ -11,5 +11,13 @@ GET     /favicon.ico                            404
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 
+GET  /anasayfa                                  Application.index(header:'false',tab:'')
+GET /sosyal                          			Application.index(header:'false',tab:'sosyal')
+GET /nedir                         				Application.index(header:'false',tab:'nedir')
+GET /iletisim                          			Application.index(header:'false',tab:'iletisim')
+GET /galeri                         			Application.index(header:'false',tab:'galeri')
+GET /rota                          				Application.index(header:'false',tab:'rota')
+GET /proje                          			Application.index(header:'false',tab:'proje')
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
