@@ -15,4 +15,25 @@
     color:white;
     font-size:20px;
     line-height:2;
+    margin-bottom:20px;
 }
+
+#iletisimForm{border:1px solid  #a1b096;width:95%;margin-left:10px;margin-right:20px}
+.formBox{border-bottom:1px solid  #a1b096;padding:5px}
+.formBox span{padding: 8px 5px 5px 5px;display: block;float: left;}
+.formBox input{height: 40px;width: 40%;float: right;}
+#formBoxTextArea{height: 143px;width: 100%;border: 1px solid  #a1b096;}
+#formBoxTextAreaContainer{padding:10px}
+#formBoxTextArea:focus {
+    outline: none !important;
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+.formBox input:focus {
+    outline:  #a1b096; !important;
+    border-color:  #a1b096;
+    box-shadow: 0 0 0 0;
+}
+
+.formBox input{border:1px solid #a1b096}
