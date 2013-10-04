@@ -44,22 +44,77 @@
         <p>Günün birinde çöpe atmak için gardırobunuzun bir köşesinde biriktirdiğiniz bu giysilerinizi, <br>
             projeye katılan H&M mağzalarına getirin. Hem modayı yaşatın hem de <br>
             teslim ettiğiniz her giysi torbası için bir sonraki alışverişinizde kullanılmak üzere 5 TL <br>
-            değerinde bir alışveriş çeki kazanın! Her gün 2 poşet bırakabilirsiniz. <br>
-            Projeyle ilgili tüm bilgiler burada</p>
-        <a id="projeNedir">Projeyle ilgili tüm bilgiler burada</a>
+            değerinde bir alışveriş çeki kazanın! Her gün 2 poşet bırakabilirsiniz. </p>
+
 
     </div>
     <div class="content">
         <div class = "contentHeader">PROJE</div>
-
+        H&M'in sürdürülebilirlik adına uzun yıllardır yürüttüğü H&M Conscious çalışmalarına<br>
+        bir yenisini ekleyereki "Modayı Yaşat" projesini hayata geçirdik.<br>
+        <br>
+        Projede, dört ünlü moda severin tasarlayarak kişiselleştirdiği H&M geri dönüşüm arabaları<br>
+        sahnede olacak. Arabalar, İstanbul'un farklı yerlerine dağılacak ve<br>
+        geri dönüşüme gönderilmek üzere sizlerden tekstil ürünleri toplayacak.<br>
+        <br>
+        Modayı Yaşat projemize destek olan<br>
+        Ayşe Kucuroğlu, Buse Terim, Didem Soydan & Umut Eker ve Melis Alphan'ın sadece<br>
+        çevre dostu malzemelerle tasarladığı H&M geri dönüşüm arabalarının hikayesini bu sayfalardan izleyebilirsiniz.<br>
+        <br>
+        <img src="/public/images/celeb01.png" />
+        <p>Ayşe Kucuroğlu</p>
+        <img src="/public/images/celeb04.png" />
+        <p>Buse Terim</p>
+        <img src="/public/images/celeb03.png" />
+        <p>Didem Soydan & Umut Eker</p>
+        <img src="/public/images/celeb02.png" />
+        <p>Melis Alphan</p>
     </div>
     <div class="content">
         <div class = "contentHeader">ROTA</div>
+        <p>Ayşe Kucuroğlu, Buse Terim, Didem Soydan & Umut Eker ve
+            <br> Melis Alphan'ın <span style="color:#49692F">"Modayı Yaşat"</span> projesi için tasarladığı H&M <span style="color:#49692F">geri dönüşüm</span> arabaları,
+            <br>sizin de karşınıza çıkabilir! Rotayı takip edin, bu güzel karşılaşmayı raslantıya bırakmayın.</p>
 
+        <p>
+            Eski, giyilemeyecek tekstil ürünlerinizi geri dönüşüm arabalarımızdan birine <br>
+            getirdiğinizde hediye çekinizi almayı unutmayın. Hem bir sonraki alışverişinizde indirim kazanın, <br>
+            hem de geri dönüşüme yardımcı olun! Bu fırsatı ayağınıza kadar getiriyoruz.
+        </p>
     </div>
     <div class="content">
         <div class = "contentHeader">İLETİŞİM</div>
-
+        <img src="/public/images/10.png" />
+        <div id="iletisimForm">
+            <form action="@{Application.sendMessage}" id="sendMessageForm"  method="post">
+                <div class="formBox">
+                    <span>Adınız:</span>
+                    <input type="text" name="firstname" />
+                    <div style="clear:both"></div>
+                </div>
+                <div class="formBox">
+                    <span>Soyadınız:</span>
+                    <input type="text" name="lastname"/>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="formBox">
+                    <span>E-mail adresi:</span>
+                    <input type="text" name="email"/>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="formBox">
+                    <span>Telefon numarası:</span>
+                    <input type="text" name="phone"/>
+                    <div style="clear:both"></div>
+                </div>
+                <div id="formBoxTextAreaContainer">
+                    <span>Mesaj</span><br>
+                    <textarea id="formBoxTextArea" name="message"></textarea>
+                    <div style="clear:both"></div>
+                </div>
+                <input id="sendMessage" type="submit" value="Gönder" />
+            </form>
+        </div>
     </div>
 </body>
 </html>
