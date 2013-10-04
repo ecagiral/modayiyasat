@@ -18,6 +18,7 @@ GET /iletisim                          			Application.index(header:'false',tab:'
 GET /galeri                         			Application.index(header:'false',tab:'galeri')
 GET /rota                          				Application.index(header:'false',tab:'rota')
 GET /proje                          			Application.index(header:'false',tab:'proje')
+GET /m                          			    Application.mobile()
 
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}
