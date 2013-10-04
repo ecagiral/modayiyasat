@@ -124,21 +124,14 @@
                 }
             });
             
-            // Next button click goes to next div
-            $('#next-btn').on('click', function(e) {
-                e.preventDefault();
-                if (!isTransitioning) {
-                    next();
-                }
-            });
             
-            // Next button click goes to next div
-            $('#prev-btn').on('click', function(e) {
-                e.preventDefault();
-                if (!isTransitioning) {
-                    next();
-                }
-            });
+//             // Next button click goes to next div
+//             $('#prev-btn').on('click', function(e) {
+//                 e.preventDefault();
+//                 if (!isTransitioning) {
+//                     next();
+//                 }
+//             });
 
             function showVideo() {
                 BV.show($('#screen-'+screenIndex).attr('data-video'),{ambient:false});
