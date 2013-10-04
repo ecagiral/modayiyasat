@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a77e86d7-d854-4d78-8acb-8e4b8174ffea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modayiyasat.iws" afterPath="$PROJECT_DIR$/modayiyasat.iws" />
     </list>
     <ignored path="modayiyasat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,7 +120,7 @@
       <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="15" selection-start="6726" selection-end="6726" vertical-scroll-proportion="0.62222224">
+            <state line="220" column="26" selection-start="6737" selection-end="6737" vertical-scroll-proportion="0.62222224">
               <folding />
             </state>
           </provider>
@@ -741,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="15" selection-start="6726" selection-end="6726" vertical-scroll-proportion="0.62222224">
+        <state line="220" column="26" selection-start="6737" selection-end="6737" vertical-scroll-proportion="0.62222224">
           <folding />
         </state>
       </provider>
