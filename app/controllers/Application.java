@@ -14,7 +14,7 @@ public class Application extends Controller {
             String ua = request.headers.get("user-agent").toString().toLowerCase();
             Boolean isMobile = ua.contains("android");
             if(isMobile){
-                renderTemplate("application/mobile.html");
+                renderTemplate("/Application/mobile.html");
             }
         };
         render(header,tab);
