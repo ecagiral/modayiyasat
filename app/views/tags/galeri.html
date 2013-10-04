@@ -10,7 +10,7 @@
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_1_b.jpg"><img src="public/images/f_1_s.jpg" alt="" /></a></td>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_2_b.jpg"><img src="public/images/f_2_s.jpg" alt="" /></a></td>
         <td class="empty"></td>
-        <td class="thumb"><a id="vimeo_test5" href="http://vimeo.com/9532951"><img src="http://b.vimeocdn.com/ts/124/387/124387814_640.jpg"></a></td>
+        <td class="thumb"><a id="vimeo_1" href="http://vimeo.com/73532110"><img src="http://b.vimeocdn.com/ts/124/387/124387814_640.jpg"></a></td>
         <td class="thumb"><img src="http://b.vimeocdn.com/ts/124/387/124387814_640.jpg"></td>
     </tr>
     <tr>
@@ -88,47 +88,6 @@
 
 <script>
 
-    $("#testdiv").click(function() {
-		$.fancybox('http://google.ca', {
-		    'padding'	: 0,
-			'type'  	: 'iframe'
-		});
-	});
-    
-	// Firing FancyBox as usual - hard coded url
-	
-	$("#vimeo_test1").fancybox({
-		'padding'		: 0,
-		'autoScale'		: false,
-		'transitionIn'	: 'none',
-		'transitionOut'	: 'none',
-		'width'			: 400,
-		'height'		: 265,
-		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=9503416',
-		'type'			: 'swf'
-	});
-	
-	// Using manual call - dynamic url change
-
-	$("#vimeo_test2").click(function() {
-		$.fancybox({
-			'padding'		: 0,
-			'autoScale'		: false,
-			'transitionIn'	: 'none',
-			'transitionOut'	: 'none',
-			'title'			: this.title,
-			'width'			: 800,
-			'height'		: 500,
-			'href'			: this.href.replace(new RegExp("([0-9])","i"),'moogaloop.swf?clip_id=$1'),
-			'type'			: 'swf'
-		});
-
-		return false;
-	});
-
-
-	// Testing grouping and full-screen
-
 	function formatTitle(title, currentArray, currentIndex, currentOpts) {
 	    return '<div><span><a href="javascript:;" onclick="$.fancybox.next();">prev</a> <a href="javascript:;" onclick="$.fancybox.prev();">next</a></span>' + title + '</div>';
 	}
@@ -139,8 +98,8 @@
 		'autoScale'		: false,
 		'transitionIn'	: 'elastic',
 		'transitionOut'	: 'elastic',
-		'width'			: 640,
-		'height'		: 360,
+		'width'			: 800,
+		'height'		: 500,
 		'type'			: 'swf',
 		'showNavArrows' : false,
 		'titlePosition' : 'inside',
@@ -149,18 +108,10 @@
 		    'wmode'				: 'transparent',
 		    'allowfullscreen'	: 'true'
 		}
-	};
+	};	
 	
-	$("#vimeo_test3").fancybox(
-		$.extend(fb_opts, {'href' : 'http://vimeo.com/moogaloop.swf?clip_id=3979490&amp;fullscreen=1'})
-	);
-	
-	$("#vimeo_test4").fancybox(
-		$.extend(fb_opts, {'href' : 'http://vimeo.com/moogaloop.swf?clip_id=3979989&amp;fullscreen=1'})
-	);
-	
-	$("#vimeo_test5").fancybox(
-		$.extend(fb_opts, {'href' : 'http://vimeo.com/moogaloop.swf?clip_id=6058176&amp;fullscreen=1'})
+	$("#vimeo_1").fancybox(
+		$.extend(fb_opts, {'href' : 'http://vimeo.com/moogaloop.swf?clip_id=73532110&amp;fullscreen=1'})
 	);
 
 </script>
