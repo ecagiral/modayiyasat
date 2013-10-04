@@ -6,7 +6,7 @@
 
 html,
 body {
-	-webkit-font-smoothing: antialiased;
+/* 	-webkit-font-smoothing: antialiased; */
     margin: 0;
     padding: 0;
     color: #fff;
@@ -231,7 +231,6 @@ color:white;
 #linksContainer > DIV > span {
 display:block;
 padding-top:6px;
-font-weight:bold;
 }
 
 .activeHeaderLink{
