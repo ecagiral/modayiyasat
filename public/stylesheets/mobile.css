@@ -39,3 +39,47 @@
 .formBox input{border:1px solid #a1b096}
 
 .celebname{font-size:18px}
+
+#rotaTablosu {
+  width:100%;
+  border-spacing:0
+}
+
+#rotaTablosu th{
+  background-color:#49692F;
+  height:60px;
+  color:white;
+  text-align:left;
+}
+
+#rotaTablosu p{
+    font-size:small
+}
+
+#rotaTablosu th.left{
+  width:1%
+}
+#rotaTablosu th.time{
+  width:20%
+}
+#rotaTablosu th.hour{
+  width:20%
+}
+#rotaTablosu th.car{
+  width:40%
+}
+#rotaTablosu th.place{
+  width:20%
+}
+
+#rotaTablosu td{
+  text-align:left;
+}
+
+.darkRow{
+    background-color:#dbe1d5
+}
+
+.lightRow{
+    background-color:#f2f2f2
+}
