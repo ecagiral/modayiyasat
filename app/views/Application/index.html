@@ -134,7 +134,7 @@
 //             });
 
             function showVideo() {
-                BV.show($('#screen-'+screenIndex).attr('data-video'),{ambient:false});
+                BV.show($('#screen-'+screenIndex).attr('data-video'),{ambient:true});
             }
 
             function next() {
@@ -215,7 +215,7 @@
             #{if tab}
             	$('.menuContent').addClass("hide");
         		var pageId = "#"+'${tab}'+"Page";;        		
-        		var headerClass = "."+'${tab}'+"-header";
+        		var headerClass = "."+'${tab}'+"Page-header";
         		$(headerClass).addClass("activeHeaderLink");        		
         		$("#anasayfa").removeClass("activeHeaderLink");
         		$("#header").css("opacity","1");
