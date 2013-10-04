@@ -10,18 +10,21 @@
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_1_b.jpg"><img src="public/images/f_1_s.jpg" alt="" /></a></td>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_2_b.jpg"><img src="public/images/f_2_s.jpg" alt="" /></a></td>
         <td class="empty"></td>
-        <td class="thumb"><a id="vimeo_1" href="https://vimeo.com/76133821"><img src="/public/images/galeri_video_thumb.png"></a></td>
-        <td class="thumb"><a id="vimeo_2" href="https://vimeo.com/76146798"><img src="/public/images/galeri_video_thumb2.png"></a></td>        
+        <td class="thumb"><a id="vimeo_1" href="javascript:;"><img src="/public/images/galeri_video_thumb.png"></a></td>
+        <td class="thumb"><a id="vimeo_2" href="javascript:;"><img src="/public/images/galeri_video_thumb2.png"></a></td>        
     </tr>
     <tr>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_3_b.jpg"><img src="public/images/f_3_s.jpg" alt="" /></a></td>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_4_b.jpg"><img src="public/images/f_4_s.jpg" alt="" /></a></td>
-        <td class="empty"></td>                
+        <td class="empty"></td>
+        <td class="thumb"><a id="vimeo_3" href="https://vimeo.com/76154790"><img src="/public/images/galeri_video_thumb3.png"></a></td>
+        <td class="thumb"><a id="vimeo_4" href="https://vimeo.com/76133821"><img src="/public/images/galeri_video_thumb4.png"></a></td>                
     </tr>
     <tr>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_5_b.jpg"><img src="public/images/f_5_s.jpg" alt="" /></a></td>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_6_b.jpg"><img src="public/images/f_6_s.jpg" alt="" /></a></td>
         <td class="empty"></td>                
+        <td class="thumb"><a id="vimeo_5" href="https://vimeo.com/76158318"><img src="/public/images/galeri_video_thumb5.png"></a></td>        
     </tr>
     <tr>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_7_b.jpg"><img src="public/images/f_7_s.jpg" alt="" /></a></td>
@@ -75,7 +78,27 @@
     </tr>
     <tr>
         <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_28_b.jpg"><img src="public/images/f_28_s.jpg" alt="" /></a></td>
-        <td class="thumb"></td>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_29_b.jpg"><img src="public/images/f_29_s.jpg" alt="" /></a></td>
+        <td class="empty"></td>
+    </tr>
+    <tr>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_30_b.jpg"><img src="public/images/f_30_s.jpg" alt="" /></a></td>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_31_b.jpg"><img src="public/images/f_31_s.jpg" alt="" /></a></td>
+        <td class="empty"></td>
+    </tr>
+    <tr>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_32_b.jpg"><img src="public/images/f_32_s.jpg" alt="" /></a></td>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_33_b.jpg"><img src="public/images/f_33_s.jpg" alt="" /></a></td>
+        <td class="empty"></td>        
+    </tr>
+    <tr>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_34_b.jpg"><img src="public/images/f_34_s.jpg" alt="" /></a></td>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_35_b.jpg"><img src="public/images/f_35_s.jpg" alt="" /></a></td>
+        <td class="empty"></td>
+    </tr>
+    <tr>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_36_b.jpg"><img src="public/images/f_36_s.jpg" alt="" /></a></td>
+        <td class="thumb"><a class="fancybox" rel="group" href="/public/images/f_37_b.jpg"><img src="public/images/f_37_s.jpg" alt="" /></a></td>
         <td class="empty"></td>
     </tr>
 </table>
@@ -84,34 +107,58 @@
 
 <script>
 
-	function formatTitle(title, currentArray, currentIndex, currentOpts) {
-	    return '<div><span><a href="javascript:;" onclick="$.fancybox.next();">prev</a> <a href="javascript:;" onclick="$.fancybox.prev();">next</a></span>' + title + '</div>';
-	}
-	
-	var fb_opts = {
+	$("#vimeo_1").fancybox({
 		'padding'		: 0,
-		'cyclic'        : true,
 		'autoScale'		: false,
-		'transitionIn'	: 'elastic',
-		'transitionOut'	: 'elastic',
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
 		'width'			: 800,
 		'height'		: 500,
-		'type'			: 'swf',
-		'showNavArrows' : false,
-		'titlePosition' : 'inside',
-		'titleFormat'	: formatTitle,
-		'swf'           : {
-		    'wmode'				: 'transparent',
-		    'allowfullscreen'	: 'true'
-		}
-	};	
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=76133821',
+		'type'			: 'swf'	
+	});
 	
-	$("#vimeo_1").fancybox(
-		$.extend(fb_opts, {'href' : 'http://vimeo.com/moogaloop.swf?clip_id=76133821&amp;fullscreen=1'})
-	);
+	$("#vimeo_2").fancybox({
+		'padding'		: 0,
+		'autoScale'		: false,
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
+		'width'			: 800,
+		'height'		: 500,
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=76146798',
+		'type'			: 'swf'
+	});
 	
-	$("#vimeo_2").fancybox(
-		$.extend(fb_opts, {'href' : 'http://vimeo.com/moogaloop.swf?clip_id=76146798&amp;fullscreen=1'})
-	);
+	$("#vimeo_3").fancybox({
+		'padding'		: 0,
+		'autoScale'		: false,
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
+		'width'			: 800,
+		'height'		: 500,
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=76154790',
+		'type'			: 'swf'
+	});
 
+	$("#vimeo_4").fancybox({
+		'padding'		: 0,
+		'autoScale'		: false,
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
+		'width'			: 800,
+		'height'		: 500,
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=76151147',
+		'type'			: 'swf'
+	});
+
+	$("#vimeo_5").fancybox({
+		'padding'		: 0,
+		'autoScale'		: false,
+		'transitionIn'	: 'none',
+		'transitionOut'	: 'none',
+		'width'			: 800,
+		'height'		: 500,
+		'href'			: 'http://vimeo.com/moogaloop.swf?clip_id=76158318',
+		'type'			: 'swf'
+	});
 </script>

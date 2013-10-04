@@ -119,6 +119,14 @@
             // Next button click goes to next div
             $('#next-btn').on('click', function(e) {
                 e.preventDefault();
+                $('#linksContainer>DIV').removeClass("activeHeaderLink");
+                $('#anasayfa').addClass("activeHeaderLink");
+                $('#page').animate({
+        			"opacity":"0"
+        		});
+        		$("#bottomBlackBorder").animate({
+        			"opacity":"0"
+        		});
                 if (!isTransitioning) {
                     next();
                 }
@@ -215,7 +223,7 @@
             #{if tab}
             	$('.menuContent').addClass("hide");
         		var pageId = "#"+'${tab}'+"Page";;        		
-        		var headerClass = "."+'${tab}'+"-header";
+        		var headerClass = "."+'${tab}'+"Page-header";
         		$(headerClass).addClass("activeHeaderLink");        		
         		$("#anasayfa").removeClass("activeHeaderLink");
         		$("#header").css("opacity","1");
