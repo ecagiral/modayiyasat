@@ -1,0 +1,18 @@
+#header{
+    border-top:3px solid #49692F;
+    border-bottom:3px solid #49692F;
+    text-align:center;
+    height:60px;
+}
+
+.content{
+    border:3px solid #49692F;
+    text-align:center;
+}
+
+.contentHeader{
+    background-color :#49692F;
+    color:white;
+    font-size:20px;
+    line-height:2;
+}

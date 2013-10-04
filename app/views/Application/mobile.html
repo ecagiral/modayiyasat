@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="tr" style="height:100%">
+<head>
+    <title>H&M</title>
+    <meta charset="${_response_encoding}">
+    <meta name="keywords" content="h&m,h&mturkiye,modayiyasat,icollect">
+    <meta name="description" content="h&m turkiye modayiyasat">
+    <meta name="viewport" content="width=device-width, user-scalable=false;">
+    <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/mobile.css'}">
+
+    #{get 'moreStyles' /}
+    <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    #{get 'moreScripts' /}
+    <!--[if lte IE 8]>
+    <style>
+        /* Rotation of the arrow element for IE < 9 */
+        .next-icon { /* IE Matrix Calculator - http: //www.boogdesign.com/examples/transforms/matrix-calculator.html */;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand')";
+        filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=-0.70710678, M21=0.70710678, M22=0.70710678,sizingMethod='auto expand');
+        }
+    </style>
+    <![endif]-->
+</head>
+<body>
+
+    #{if flash?.success}
+        <div class="alert-success">
+            ${flash.success}
+        </div>
+    #{/if}
+    <div id = "header">
+        <img style="margin-top:20px;" src="/public/images/1.png" />
+    </div>
+    <div class="content">
+        <div class = "contentHeader">NEDİR?</div>
+        <img src="/public/images/4.png">
+        <p>Her yıl tonlarca tekstil ürünü geri dönüşüme uğramadan atılıyor. Oysa bu eski kıyafet ve <br> kumaşların neredeyse %95'i yeniden kullanılabilir.</p>
+        <img src="/public/images/5.png">
+        <p>H&M'de sürdürülebilir moda felsefemizi yeni bir projeyle destekliyoruz. <br> Eskimiş, yıpranmış veya giyilemeyecek durumda olan giysilerinizi topluyor ve <br> geri dönüşüme kazandırıyoruz!</p>
+        <img src="/public/images/6.png">
+        <p>Günün birinde çöpe atmak için gardırobunuzun bir köşesinde biriktirdiğiniz bu giysilerinizi, <br>
+            projeye katılan H&M mağzalarına getirin. Hem modayı yaşatın hem de <br>
+            teslim ettiğiniz her giysi torbası için bir sonraki alışverişinizde kullanılmak üzere 5 TL <br>
+            değerinde bir alışveriş çeki kazanın! Her gün 2 poşet bırakabilirsiniz. <br>
+            Projeyle ilgili tüm bilgiler burada</p>
+        <a id="projeNedir">Projeyle ilgili tüm bilgiler burada</a>
+
+    </div>
+    <div class="content">
+        <div class = "contentHeader">PROJE</div>
+
+    </div>
+    <div class="content">
+        <div class = "contentHeader">ROTA</div>
+
+    </div>
+    <div class="content">
+        <div class = "contentHeader">İLETİŞİM</div>
+
+    </div>
+</body>
+</html>

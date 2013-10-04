@@ -10,6 +10,13 @@ import java.util.*;
 public class Application extends Controller {
 
     public static void index(Boolean header,String tab) {
+        if(request.headers.get("user-agent")!= null){
+            String ua = request.headers.get("user-agent").toString().toLowerCase();
+            Boolean isMobile = ua.contains("android");
+            if(!isMobile){
+                renderTemplate("application/mobile.html");
+            }
+        };
         render(header,tab);
     }
     
