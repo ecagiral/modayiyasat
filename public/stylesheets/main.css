@@ -314,10 +314,14 @@ color:white !important;
   width:15%
 }
 #rotaTablosu th.car{
-  width:30%
+  width:30%;
 }
 #rotaTablosu th.place{
-  width:13%
+  width:13%;
+}
+
+.place >a{
+  color:black;
 }
 
 #rotaTablosu td{
