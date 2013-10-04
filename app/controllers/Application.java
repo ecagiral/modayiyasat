@@ -10,9 +10,9 @@ import java.util.*;
 public class Application extends Controller {
 
     public static void index(Boolean header,String tab) {
-        if(tab==null){
-            renderTemplate("/Application/welcome.html");
-        }
+        //if(tab==null){
+        //    renderTemplate("/Application/welcome.html");
+        //}
 
         if(request.headers.get("user-agent")!= null){
             String agentInfo = request.headers.get("user-agent").toString().toLowerCase();
