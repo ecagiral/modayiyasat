@@ -1,3 +1,8 @@
+body {
+/* 	-webkit-font-smoothing: antialiased; */
+    font-family:'HM Ampersand Regular', Arial, sans-serif;
+}
+
 #header{
     border-top:3px solid #49692F;
     border-bottom:3px solid #49692F;
@@ -8,6 +13,14 @@
 .content{
     border:3px solid #49692F;
     text-align:center;
+}
+
+.content p{
+    margin-left:20px;
+    margin-right:20px;
+}
+.content img{
+    max-width:90%;
 }
 
 .contentHeader{
@@ -52,7 +65,7 @@
   text-align:left;
 }
 
-#rotaTablosu p{
+#rotaTablosu{
     font-size:small
 }
 
@@ -83,3 +96,5 @@
 .lightRow{
     background-color:#f2f2f2
 }
+
+.line{width:75%;height:0px;border:2px solid #49692F;margin:20px auto}
