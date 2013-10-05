@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a77e86d7-d854-4d78-8acb-8e4b8174ffea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/mobile.css" afterPath="$PROJECT_DIR$/public/stylesheets/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/mobile.html" afterPath="$PROJECT_DIR$/app/views/Application/mobile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modayiyasat.iws" afterPath="$PROJECT_DIR$/modayiyasat.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
     </list>
     <ignored path="modayiyasat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobile.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mobile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/mobile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="36" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.2509225">
+            <state line="34" column="36" selection-start="1406" selection-end="1406" vertical-scroll-proportion="-0.8947368">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -119,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="220" column="26" selection-start="6737" selection-end="6737" vertical-scroll-proportion="0.0">
+            <state line="220" column="15" selection-start="6726" selection-end="6726" vertical-scroll-proportion="0.62222224">
               <folding />
             </state>
           </provider>
@@ -215,9 +213,9 @@
         <option value="$PROJECT_DIR$/app/views/Application/welcome.html" />
         <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/public/stylesheets/mobile.css" />
         <option value="$PROJECT_DIR$/app/views/Application/mobile.html" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
       </list>
     </option>
   </component>
@@ -725,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="220" column="26" selection-start="6737" selection-end="6737" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tags/proje.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="8" selection-start="95" selection-end="119" vertical-scroll-proportion="-1.9615384">
@@ -755,13 +746,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/mobile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="36" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.2509225">
+        <state line="34" column="36" selection-start="1406" selection-end="1406" vertical-scroll-proportion="-0.8947368">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1381005109106" expanded="true" signature="690:1195" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="15" selection-start="6726" selection-end="6726" vertical-scroll-proportion="0.62222224">
+          <folding />
         </state>
       </provider>
     </entry>
