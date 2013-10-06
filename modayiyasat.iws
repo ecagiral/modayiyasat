@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a77e86d7-d854-4d78-8acb-8e4b8174ffea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modayiyasat.iws" afterPath="$PROJECT_DIR$/modayiyasat.iws" />
     </list>
     <ignored path="modayiyasat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,8 +20,8 @@
     <file path="/sosyal.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380702819391" ignored="false" />
     <file path="/main.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380875725747" ignored="false" />
     <file path="/Application.java" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380888889255" ignored="false" />
-    <file path="/mobile.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380892232303" ignored="false" />
-    <file path="/mobile.css" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380909919224" ignored="false" />
+    <file path="/mobile.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1381005057540" ignored="false" />
+    <file path="/mobile.css" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1381004408130" ignored="false" />
     <file path="/welcome.html" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380888716843" ignored="false" />
     <file path="/routes" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380888921995" ignored="false" />
     <file path="/application.conf" changelist="a77e86d7-d854-4d78-8acb-8e4b8174ffea" time="1380902461945" ignored="false" />
@@ -98,7 +97,7 @@
       <file leaf-file-name="proje.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tags/proje.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="8" selection-start="1836" selection-end="2353" vertical-scroll-proportion="0.0">
+            <state line="3" column="8" selection-start="95" selection-end="119" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -107,12 +106,12 @@
       <file leaf-file-name="mobile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/mobile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="443" column="104" selection-start="19876" selection-end="19876" vertical-scroll-proportion="-52.923077">
+            <state line="34" column="36" selection-start="1406" selection-end="1406" vertical-scroll-proportion="-0.8947368">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1380910295579" expanded="true" signature="690:1195" placeholder="..." />
+                <marker date="1381005109106" expanded="true" signature="690:1195" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -168,7 +167,7 @@
       <file leaf-file-name="mobile.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="10" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
+            <state line="67" column="12" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -177,7 +176,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="293" column="1" selection-start="6563" selection-end="6689" vertical-scroll-proportion="0.0">
+            <state line="242" column="3" selection-start="4644" selection-end="4712" vertical-scroll-proportion="-1.98">
               <folding />
             </state>
           </provider>
@@ -214,8 +213,8 @@
         <option value="$PROJECT_DIR$/app/views/Application/welcome.html" />
         <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/app/views/Application/mobile.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/mobile.css" />
+        <option value="$PROJECT_DIR$/app/views/Application/mobile.html" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
       </list>
     </option>
@@ -300,6 +299,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modayiyasat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modayiyasat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -683,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/proje.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="1836" selection-end="2353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="10" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
@@ -704,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="1" selection-start="6563" selection-end="6689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="9" selection-start="2367" selection-end="2367" vertical-scroll-proportion="-0.65384614">
@@ -720,22 +723,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/mobile.html">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/proje.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="443" column="104" selection-start="19876" selection-end="19876" vertical-scroll-proportion="-52.923077">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1380910295579" expanded="true" signature="690:1195" placeholder="..." />
-          </folding>
+        <state line="3" column="8" selection-start="95" selection-end="119" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="3" selection-start="4644" selection-end="4712" vertical-scroll-proportion="-1.98">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="10" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
+        <state line="67" column="12" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/mobile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="36" selection-start="1406" selection-end="1406" vertical-scroll-proportion="-0.8947368">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1381005109106" expanded="true" signature="690:1195" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
