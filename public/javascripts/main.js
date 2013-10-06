@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 $("#next").mouseover(function(e) {
 	e.preventDefault();
+	$('#header').toggle(true);
 	$('#header').animate({
 		"opacity":"1"
 	});
@@ -17,7 +18,7 @@ $('#linksContainer > DIV').on('click', function() {
 		});
 		$("#bottomBlackBorder").animate({
 			"opacity":"0"
-		});
+		});		
 	}else {
 	    $('.menuContent').addClass("hide");
 		var pageId = "#"+$(this).attr('id')+"Page";

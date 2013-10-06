@@ -103,15 +103,16 @@
                 });
                 
                 BV.getPlayer().addEvent('ended', function () {
+                	$('#header').toggle(true);
                 	$('#header').animate({
                 		"opacity":"1"
-                	});
+                	});                	
                 });
 
                 // adjust image positioning so it lines up with video
                 $bigImage
-                    .css('position','relative')
-                    .imagesLoaded(adjustImagePositioning);
+                    .css('position','relative');
+                    //.imagesLoaded(adjustImagePositioning);
                 // and on window resize
                 $window.on('resize', adjustImagePositioning);
             }
@@ -208,7 +209,7 @@
                         width   : new_w,
                         height  : new_h,
                         left    : ( windowWidth - new_w ) / 2,
-                        top     : ( windowHeight - new_h ) / 2
+                        top     : ( windowHeight - new_h )/ 2
                     })
 
                 });
@@ -217,7 +218,8 @@
                     
            	 
             #{if header}
-            	$('#header').css("opacity","1");
+            	$('#header').toggle(true);
+            	$('#header').css("opacity","1");            	
             #{/if}
             
             #{if tab}
@@ -226,6 +228,7 @@
         		var headerClass = "."+'${tab}'+"Page-header";
         		$(headerClass).addClass("activeHeaderLink");        		
         		$("#anasayfa").removeClass("activeHeaderLink");
+        		$('#header').toggle(true);
         		$("#header").css("opacity","1");
         		$("#page").css("opacity","1");
         		$(pageId).removeClass("hide");
