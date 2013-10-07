@@ -27,6 +27,10 @@ public class Application extends Controller {
     public static void mobile() {
         render();
     }
+
+    public static void twitter() {
+        render();
+    }
     
     public static void sendMessage(@Required String firstname, @Required String lastname, @Required String email, String phone, @Required String message){
     	
